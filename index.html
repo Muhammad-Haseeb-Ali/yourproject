@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="form-wrapper">
+        <form action="/p/quote.php" method="GET">
+            <h1 id="form-title">Select!</h1>
+            <div id="debt-amount-slider">
+                <input type="radio" name="debt-amount" id="1" value="1" required>
+                <label for="1" data-debt-amount="12 month"></label>
+                <input type="radio" name="debt-amount" id="2" value="2" required>
+                <label for="2" data-debt-amount="9 month"></label>
+                <input type="radio" name="debt-amount" id="3" value="3" 
+                       checked
+    required>
+                <label for="3" data-debt-amount="6 month"></label>
+                <input type="radio" name="debt-amount" id="4" value="4" required>
+                <label for="4" data-debt-amount="3 month"></label>
+                <input type="radio" name="debt-amount" id="5" value="5" required>
+                <label for="5" data-debt-amount="1 month"></label>
+                <div id="debt-amount-pos"></div>
+                <div id="debt-amount-back-line"></div>
+            </div>
+        </form>
+        <!--
+    https://www.cssportal.com/scss-to-css/
+    -->
+    </div>
+    
+    
+</body>
+</html>
